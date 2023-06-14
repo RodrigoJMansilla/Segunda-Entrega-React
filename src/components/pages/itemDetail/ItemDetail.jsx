@@ -13,11 +13,11 @@ export const ItemDetail = ({ productSelected }) => {
   };
 
   return (
-    <>
+    <div style={{display:"flex", justifyContent:"center"}}>
       {productSelected.stock > 0 ? (
         <ProductCardDetail elemento={productSelected} />
       ) : <h3>No hay stock</h3>}
-    </>
+    </div>
   );
 };
 
