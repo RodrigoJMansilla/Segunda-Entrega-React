@@ -1,6 +1,7 @@
-import styles from "./ProductCard.module.css"
+import { ItemCountContainer } from "../itemCount/ItemCountContainer"
+import styles from "../productCard/ProductCard.module.css"
 
-export const ProductCard = ({elemento}) => {
+export const ProductCardDetail = ({elemento}) => {
   return (
     <div key={elemento.id} className={styles.card}>
         <img className={styles.imgCard} src={elemento.img} alt={elemento.title} />
@@ -15,7 +16,8 @@ export const ProductCard = ({elemento}) => {
                     Stock: {elemento.stock}
                 </p>
             </div>
-            <button className={styles.btnCard}>Ver Detalle</button>
+            <ItemCountContainer stock={elemento.stock} initial={1} />
+            {/* Falta pasar onAdd a item count */}
         </div>  
     </div>
   )

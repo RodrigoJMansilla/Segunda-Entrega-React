@@ -2,6 +2,9 @@ import style from "./App.module.css";
 import { useState } from "react";
 import { ItemListContainer } from "./components/pages/itemListContainer/ItemListContainer";
 import { Navbar } from "./components/layout/navbar/Navbar";
+import { ProductCardDetail } from "./components/common/productCardDetail/ProductCardDetail";
+import { ItemDetailContainer } from "./components/pages/itemDetail/ItemDetailContainer";
+import { products } from "./productsMock";
 
 function App() {
   const [counter, setCounter] = useState(1);
@@ -10,14 +13,9 @@ function App() {
     <>
       <Navbar contador={counter} />
       <main>
-        { <ItemListContainer />
-        /*<h2 className={style.heading2}>
-          Botones para jugar con el counter del carrito:
-        </h2>
-        <div className={style.contBotones}>
-          <button className={style.botones} onClick={() => setCounter(counter + 1)}>Sumar</button>
-          <button className={style.botones} onClick={() => setCounter(counter - 1)}>Restar</button>
-        </div> */}
+        <ItemListContainer />
+        <ItemDetailContainer/>
+        
       </main>
     </>
   );

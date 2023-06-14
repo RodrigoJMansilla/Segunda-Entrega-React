@@ -67,7 +67,7 @@
     width: max-content;
 }
 
-.btnFruta:hover{
+.btnCard:hover{
     cursor: pointer;
     background-color: #790068;
     color: white;
