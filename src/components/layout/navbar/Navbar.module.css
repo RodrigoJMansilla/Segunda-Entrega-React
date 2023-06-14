@@ -12,9 +12,18 @@ h3{
     background-color: #403761;
 }
 
+.subNav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    width: 80%;
+}
+
 .contenedorBotones{
     display: flex;
     gap: 15px;
+    width: 65%;
+    padding-top: 10px;
 }
 
 .botones{
