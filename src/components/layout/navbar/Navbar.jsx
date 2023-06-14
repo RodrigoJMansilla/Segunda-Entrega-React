@@ -12,10 +12,12 @@ export const Navbar = ({contador}) => {
           </Link>
             
           <div className={styles.contenedorBotones}>
-              <button className={styles.botones}>Todos</button>
-              <button className={styles.botones}>Cuadros</button>
-              <button className={styles.botones}>Escultura</button>
-              <button className={styles.botones}>Blog</button>
+              <Link to="/"><button className={styles.botones}>Todos</button></Link>
+              <Link to="/category/birome"><button className={styles.botones}>Birome</button></Link>
+              <Link to="/category/grabado"><button className={styles.botones}>Grabado</button></Link>
+              <Link to="/category/grafito"><button className={styles.botones}>Grafito</button></Link>
+              <Link to="/category/oleo"><button className={styles.botones}>Oleo</button></Link>
+              <Link to="/category/pastel"><button className={styles.botones}>Pastel</button></Link>
           </div>
         </div>
         <Link to="/carrito">

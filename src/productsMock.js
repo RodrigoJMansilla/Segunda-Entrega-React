@@ -59,7 +59,7 @@ export const products = [
         price: 17800,
         stock: 5,
         description: "Cactus en el desierto",
-        category: "Grabado",
+        category: "grabado",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578495/WebArtista/Grabado/Cactus_I_kgpyf0.jpg"
     },
     {
@@ -68,7 +68,7 @@ export const products = [
         price: 15900,
         stock: 5,
         description: "Obra abstracta que remite a un pastor bajo el cielo",
-        category: "Grabado",
+        category: "grabado",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578494/WebArtista/Grabado/La_fama_vqxcia.jpg"
     },
     {
@@ -77,7 +77,7 @@ export const products = [
         price: 17000,
         stock: 5,
         description: "Resiliencia",
-        category: "Grabado",
+        category: "grabado",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578494/WebArtista/Grabado/Resiliensia_p2kcn9.jpg"
     },
     {
@@ -86,7 +86,7 @@ export const products = [
         price: 18100,
         stock: 5,
         description: "Obra de tonos rojizos y oscuros",
-        category: "Grabado",
+        category: "grabado",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578493/WebArtista/Grabado/el_extra%C3%B1o_q24jgk.jpg"
     },
     {
@@ -95,7 +95,7 @@ export const products = [
         price: 16000,
         stock: 5,
         description: "La Clase",
-        category: "Grabado",
+        category: "grabado",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578492/WebArtista/Grabado/La_Clase_oiecm5.jpg"
     },
     {
@@ -104,7 +104,7 @@ export const products = [
         price: 17700,
         stock: 5,
         description: "Jugadora de Hockey",
-        category: "Grabado",
+        category: "grabado",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578492/WebArtista/Grabado/En_el_ruedo_jenkbu.jpg"
     },
     {
@@ -113,7 +113,7 @@ export const products = [
         price: 16800,
         stock: 5,
         description: "Escenografia",
-        category: "Grafito",
+        category: "grafito",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578495/WebArtista/Grafito/Escenografia_I_h6aeoq.jpg"
     },
     {
@@ -122,7 +122,7 @@ export const products = [
         price: 19300,
         stock: 5,
         description: "Mascara Teatral",
-        category: "Grafito",
+        category: "grafito",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578494/WebArtista/Grafito/El_Tiempo_OLvidado_u1ixou.jpg"
     },
     {
@@ -131,7 +131,7 @@ export const products = [
         price: 21900,
         stock: 5,
         description: "Mujer Oradora",
-        category: "Grafito",
+        category: "grafito",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578493/WebArtista/Grafito/Rezos_dcukyi.jpg"
     },
     {
@@ -140,7 +140,7 @@ export const products = [
         price: 22500,
         stock: 5,
         description: "Persona Desnuda",
-        category: "Grafito",
+        category: "grafito",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578492/WebArtista/Grafito/Desnudo_II_ka2mmf.jpg"
     },
     {
@@ -149,7 +149,7 @@ export const products = [
         price: 16700    ,
         stock: 5,
         description: "Mirame",
-        category: "Grafito",
+        category: "grafito",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578492/WebArtista/Grafito/Mirame_hz73by.jpg"
     },
     {
@@ -158,7 +158,7 @@ export const products = [
         price: 23600,
         stock: 5,
         description: "Mujer con mandala tatuado",
-        category: "Grafito",
+        category: "grafito",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578492/WebArtista/Grafito/Multiplicidades_avnasm.jpg"
     },
     {
@@ -167,7 +167,7 @@ export const products = [
         price: 21900,
         stock: 5,
         description: "Mujer recostada",
-        category: "Grafito",
+        category: "grafito",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578491/WebArtista/Grafito/Desnudo_I_nzk75l.jpg"
     },
     {
@@ -176,7 +176,7 @@ export const products = [
         price: 17300,
         stock: 5,
         description: "Mujer performando",
-        category: "Oleo",
+        category: "oleo",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578495/WebArtista/Oleo/Bailarina_I_b5hbeh.jpg"
     },
     
@@ -186,7 +186,7 @@ export const products = [
         price: 16200,
         stock: 5,
         description: "En el divan",
-        category: "Oleo",
+        category: "oleo",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578495/WebArtista/Oleo/en_el_divan_znmhzv.jpg"
     },
     {
@@ -195,7 +195,7 @@ export const products = [
         price: 18700,
         stock: 5,
         description: "Mujer",
-        category: "Oleo",
+        category: "oleo",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578495/WebArtista/Oleo/Ahora_te_puedo_ver_njonkx.jpg"
     },
     {
@@ -204,7 +204,7 @@ export const products = [
         price: 19100,
         stock: 5,
         description: "Mujer",
-        category: "Pastel Tiza",
+        category: "pastel",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578496/WebArtista/Pastel%20Tiza/La_conquista_nnr9zz.jpg"
     },
     {
@@ -213,7 +213,7 @@ export const products = [
         price: 16800,
         stock: 5,
         description: "Vajilla",
-        category: "Pastel Tiza",
+        category: "pastel",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578495/WebArtista/Pastel%20Tiza/Cacharros_II_fbvelp.jpg"
     },
     {
@@ -222,7 +222,7 @@ export const products = [
         price: 19200,
         stock: 5,
         description: "Mujer de perfil",
-        category: "Pastel Tiza",
+        category: "pastel",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578494/WebArtista/Pastel%20Tiza/Huellas_dszzu3.jpg"
     },
     {
@@ -231,7 +231,7 @@ export const products = [
         price: 18900,
         stock: 5,
         description: "Cavilaciones",
-        category: "Pastel Tiza",
+        category: "pastel",
         img: "https://res.cloudinary.com/dkunurz6s/image/upload/v1686578494/WebArtista/Pastel%20Tiza/Cavilaciones_amkaxo.jpg"
     }
 ]
