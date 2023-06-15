@@ -7,6 +7,7 @@ import { ItemDetailContainer } from "./components/pages/itemDetail/ItemDetailCon
 import { products } from "./productsMock";
 import Layout from "./components/layout/Layout";
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import { menuRoutes } from "./routes/menuRoutes";
 
 function App() {
   const [counter, setCounter] = useState(1);
@@ -15,15 +16,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
-          <Route path="/" element={<ItemListContainer />} />
-
-          <Route path="/itemDetail/:id" element={<ItemDetailContainer />} />
-
-          <Route path="/category/:categoryName" element={<ItemListContainer />} />
-          
-          {/* <Route path="/carrito" element={<CartContainer />} /> */}
-
-
+	          {menuRoutes.map(({ id, path, Element }) => (
+	            <Route key={id} path={path} element={<Element />} />
+	          ))}
         </Route>
         <Route path="*" element={<h2>Debe haber un error <Link to="/">Click aqui para volver a home</Link></h2>} />
       </Routes>
