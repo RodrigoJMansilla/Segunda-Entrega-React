@@ -10,12 +10,13 @@ export const ItemDetail = ({ productSelected }) => {
     };
 
     console.log(data);
+    console.log("la cantidad del producto es:" + data.quantity)
   };
 
   return (
     <div style={{display:"flex", justifyContent:"center"}}>
       {productSelected.stock > 0 ? (
-        <ProductCardDetail elemento={productSelected} />
+        <ProductCardDetail elemento={productSelected} onAdd={onAdd} />
       ) : <h3>No hay stock</h3>}
     </div>
   );

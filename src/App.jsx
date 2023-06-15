@@ -6,7 +6,7 @@ import { ProductCardDetail } from "./components/common/productCardDetail/Product
 import { ItemDetailContainer } from "./components/pages/itemDetail/ItemDetailContainer";
 import { products } from "./productsMock";
 import Layout from "./components/layout/Layout";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 
 function App() {
   const [counter, setCounter] = useState(1);
@@ -25,6 +25,7 @@ function App() {
 
 
         </Route>
+        <Route path="*" element={<h2>Debe haber un error <Link to="/">Click aqui para volver a home</Link></h2>} />
       </Routes>
     </BrowserRouter>
 
